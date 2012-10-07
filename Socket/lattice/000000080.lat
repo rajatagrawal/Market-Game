@@ -1,0 +1,22 @@
+# getcwd: /this/is/bogus
+# -logbase 1.000100e+00
+#
+Frames 162
+#
+Nodes 4 (NODEID WORD STARTFRAME FIRST-ENDFRAME LAST-ENDFRAME)
+0 WHEAT 99 112 161
+1 BANANA 43 68 119
+2 <sil> 3 5 43
+3 <s> 0 2 47
+#
+Initial 3
+Final 0
+#
+BestSegAscr 0 (NODEID ENDFRAME ASCORE)
+#
+Edges (FROM-NODEID TO-NODEID ASCORE)
+1 0 -7142400
+2 1 -4120576
+3 2 -910336
+3 1 -4908032
+End

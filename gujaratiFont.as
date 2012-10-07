@@ -1,0 +1,1 @@
+﻿package  {		import flash.text.Font;			public class gujaratiFont extends Font {						public function gujaratiFont() {			// constructor code		}	}	}

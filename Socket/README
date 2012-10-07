@@ -1,0 +1,33 @@
+Touchscreen ASR Correction Demo
+-------------------------------
+David Huggins-Daines <dhuggins@cs.cmu.edu>
+
+Originally a project for an HCII course, later demoed at ACL 2008.
+
+Prerequisites:
+
+ - GStreamer 0.10
+ - GTK+
+ - Python 2.4 or newer
+ - PocketSphinx and SphinxTrain Python modules installed
+ - PocketSphinx GStreamer plugin installed
+
+If you are on Ubuntu 9.10 or newer, you can achieve this by simply running:
+
+sudo apt-get install python-pocketsphinx gstreamer0.10-pocketsphinx python-sphinxbase
+
+On Ubuntu 9.10 and newer you should make sure that your GStreamer
+properties are set to use PulseAudio for audio input, because the ALSA
+plugin for PulseAudio works very badly.  Simply run
+"gstreamer-properties" from the command-line and adjust them in the
+GUI that pops up.
+
+On older versions it is recommended that you use ALSA directly instead
+(so long as you don't have it configured to use PulseAudio as its
+default input device!)
+
+On Maemo, you should be able to build packages in scratchbox using the
+debian/ directories present in PocketSphinx and SphinxBase from the
+SourceForge Subversion repository.  Then simply copy them to your
+Internet Tablet and install.  You will of course also need to install
+Python on the device.  After that it should Just Work.

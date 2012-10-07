@@ -1,0 +1,15 @@
+-alpha 0.97
+-dither yes
+-doublebw no
+-ncep 13
+-nfft 512
+-wlen 0.0256
+-srate 8000
+-upperf 3500
+-lowerf 200
+-nfilt 31
+-transform legacy
+-feat s2_4x
+-agc none
+-cmn current
+-varnorm no

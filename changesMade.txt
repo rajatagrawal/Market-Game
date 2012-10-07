@@ -1,0 +1,5 @@
+1. position microphone image rectified.
+2. diappearance of microphone image on pressing repeat rectified.
+3. the spellings of all the words are now displayed.
+4. the font size of the spelling is increased to 36;
+5. the position of the spelling is moved to the top of the image.
